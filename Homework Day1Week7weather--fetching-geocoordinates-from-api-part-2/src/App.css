@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+} 
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;  
+}
+
+.object__weather{
+  color:teal;
+  font-size: 1em;
+  padding-left: 20px;
+
+}
+.cuadro__clima{
+  display: flex;
+  flex-direction: row;
+}
+
+.cuadrito__cli  ma{
+  width: 150px;
+  height: 270px;
+  background-color: white;
+  margin: 10px 5px 50px 5px;
+  padding: 15px;
+}
+
+#imagen{
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.app {
+  background-color: #f5f6fa;
+  display: block;
+}
+
+.app__header {
+  background-color: white;
+  border-bottom: 1px solid #edeef2;
+  padding: 7px;
+}
+
+.app__add {
+  border-radius: 3px;
+  border: 0;
+  background-color: #dbe6ff;
+  padding: 6px 8px;
+  cursor: pointer;
+  color: #4b83fd;
+}
+
+.app__add:hover {
+  background-color: #F9F9F9;
+}
+
+.app__aside {
+  background-color: white;
+  width: 200px;
+  padding: 20px 10px;
+  border-right: 1px solid #edeef2;
+}
+
+.app__title {
+  color: #969dae;
+  font-size: 11px;
+  margin-bottom: 6px;
+}
+
+.app__country {
+  display: block;
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 5px;
+  color: #68676a;
+  line-height: 1.3;
+}
+
+.app__input {
+  border: 1px solid #999;
+  width: 100%;
+  height: 25px;
+  padding: 0 5px;
+  font-size: 12px;
+  margin: 3px 0;
+  border-radius: 2px;
+  color: black;
+}
+
+.app__view {
+  padding: 20px;
+}
+
+.grid {
+  display: flex;
+  height: auto;
+}
+
+.main__display{
+  padding: 20px;
+  
+}
